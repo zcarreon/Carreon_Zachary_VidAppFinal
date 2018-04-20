@@ -1,0 +1,59 @@
+body {
+  background-color: #fff;
+  color: #6c3c97;
+}
+
+header {
+  background-color: #454545;
+  color: #fff;
+  border-bottom: 3px solid #6c3c97;
+}
+
+footer {
+  background-color: #6c3c97;
+  color: #fff;
+}
+textarea {
+  border: 3px solid #6c3c97;
+}
+
+a {
+  text-decoration: none;
+  color: #9260c0;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.movie-title {
+  text-align: center;
+  line-height: 50px;
+  font-size: 2.25em;
+}
+
+.video-highlight {
+  margin-bottom: 20px;
+  border-bottom: 3px solid #6c3c97;
+}
+
+.movie-wrapper video {
+  margin-top: 5px;
+  border-top: 3px solid #6c3c97;
+  border-bottom: 3px solid #6c3c97;
+}
+
+.genre-lists {
+  padding-top: -10px;
+  padding-bottom: 10px;
+}
+
+.genre-lists:nth-child(odd) {
+  background-color: #6c3c97;
+  color: #fff;
+}
+
+.add-comment {
+  float: right;
+  margin-bottom: 15px;
+}
